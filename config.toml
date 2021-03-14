@@ -1,0 +1,48 @@
+# The URL the site will be built for
+base_url = "https://brunobell.github.io"
+generate_feed = true
+feed_filename = "rss.xml"
+feed_limit = 20
+compile_sass = true
+
+title = "打工细胞"
+description = "工作不仅仅要靠知识，还需要经验和一颗热诚的心。"
+
+taxonomies = [
+    {name = "categories", rss = true, paginate_by=5},
+    {name = "tags", rss = true, paginate_by=5},
+]
+
+[markdown]
+highlight_code = true
+highlight_theme = "base16-ocean-dark"
+render_emoji = true
+external_links_target_blank = true
+external_links_no_follow = true
+external_links_no_referrer = true
+smart_punctuation = true
+
+[slugify]
+paths = "on"
+taxonomies = "on"
+anchors = "on"
+
+[extra]
+zola = "https://www.getzola.org"
+author = "broono"
+clean_blog_menu = [
+    {url = "/", name = "首页"},
+	{url = "/categories", name = "分类"},
+	{url = "/tags", name = "标签"},
+    {url = "/about", name = "关于我"},
+	{url = "/links", name = "友情链接"},
+]
+clean_blog_social = [
+	{url = "mailto:broono@tuta.io", icon="fas fa-envelope"},
+    {url = "https://github.com/brunobell", icon="fab fa-github"},
+    {url = "/rss.xml", icon="fas fa-rss"}
+]
+category_list_title = "和而不同"
+category_list_description = "绝对不能让你伤害这具躯体！"
+tag_list_title = "物以类聚"
+tag_list_description = "这是您今日份的氧气！"
