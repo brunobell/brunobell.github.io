@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>打工细胞</title>
+        <link>https://blog.htop.one</link>
+        <description>工作不仅仅要靠知识，还需要经验和一颗热诚的心。</description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://blog.htop.one/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Mon, 15 Mar 2021 00:00:00 +0000</lastBuildDate>
+        <item>
+            <title>Hello World!</title>
+            <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
+            <link>https://blog.htop.one/hello-world/</link>
+            <guid>https://blog.htop.one/hello-world/</guid>
+            <description>&lt;p&gt;To print “Hello world!” in different programming languages I have been using lately.&lt;&#x2F;p&gt;
+</description>
+        </item>
+    </channel>
+</rss>
