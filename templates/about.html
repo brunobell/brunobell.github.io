@@ -1,5 +1,7 @@
 {% extends "index.html" %}
 
+{% block title %}关于我 - {{ config.title }}{% endblock %}
+
 {% block header %}
 <!-- Page Header -->
 <header class="masthead" style="background-image: url('{{ get_url(path="/img/about-bg.jpg")}}')">
