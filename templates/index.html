@@ -11,7 +11,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+        <title>{% block title %}{{ config.title }} - {{ config.extra.slogan }}{% endblock title %}</title>
 
         <!-- Bootstrap core CSS -->
         <link rel="stylesheet" href="{{ get_url(path="css/bootstrap.min.css") }}">

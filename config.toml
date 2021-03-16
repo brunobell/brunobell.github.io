@@ -30,6 +30,7 @@ anchors = "on"
 [extra]
 zola = "https://www.getzola.org"
 author = "broono"
+slogan = "こちら本日分の酸素になります！"
 clean_blog_menu = [
     {url = "/", name = "首页"},
 	{url = "/categories", name = "分类"},
