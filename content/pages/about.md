@@ -9,9 +9,8 @@ template = "about.html"
 
 - __个人简介__
     - 半路出家ADD(自学驱动开发)
-    - HW(OD)工具人
-    - Python -> Golang -> Rust
-    - 骑驴找马(远程尤佳)
+    - Python, Golang, Rust
+    - 石河子 -> 乌鲁木齐 -> 长沙 -> 深圳 -> 长沙
 
 - __博客版本__
     - 2021-03-15 正式上线

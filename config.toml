@@ -29,7 +29,8 @@ anchors = "on"
 
 [extra]
 zola = "https://www.getzola.org"
-author = "broono"
+author = "dash"
+keywords = "打工人，90后，跨境电商，独立站，技术合伙人，Rustacean"
 slogan = "こちら本日分の酸素になります！"
 clean_blog_menu = [
     {url = "/", name = "首页"},

@@ -7,6 +7,5 @@ template = "links.html"
 [extra]
 links = [
 	{ url = "https://brucedone.com", title = "大鱼的鱼塘" },
-	{ url = "https://wsgggws.github.io", title = "码码要洗手" },
 ]
 +++

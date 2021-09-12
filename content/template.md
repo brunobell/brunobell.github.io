@@ -1,15 +1,47 @@
 +++
-title = ""
-description = ""
+title = "Hello World!"
+description = "To print \"Hello world!\" in different programming"
 date = 1970-01-01
-# updated = 1970-01-01
+updated = 2021-03-15
 draft = true
-slug = "template-slug"
+slug = "hello-world"
 # path = ""
 template = "page.html"
 
 [taxonomies]
-categories = []
-tags = []
+categories = ["hello-world", "multi-lang"]
+tags = ["hello-world", "multi-lang"]
 [extra]
 +++
+
+To print "Hello world!" in different programming languages I have been using lately.
+<!-- more -->
+
+Bash
+```bash
+echo "Hello world!"
+```
+
+Python3
+```python
+print("Hello world!")
+```
+
+Go
+```go
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello World")
+}
+```
+
+Rust
+```rust
+fn main() {
+    println!("Hello World");
+}
+```
+---

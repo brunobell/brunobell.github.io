@@ -3,17 +3,29 @@
 	<h2 class="post-title">{{ page.title }}</h2>
 </a>
 <p class="post-meta">Posted by
-	<a href="#">{{config.extra.author}}</a>
+	<a href="#">{{page.extra.author}}</a>
 	on {{ page.date | date(format="%e %B %Y")}}
 </p>
-{% endmacro page_list %}
+{% endmacro page_title %}
 
 {% macro page_header(page) %}
 <h1>{{ page.title }}</h1>
 <span class="meta">Posted by
-	<a href="#">{{config.extra.author}}</a>
+	<a href="#">{{page.extra.author}}</a>
 	on {{ page.date | date(format="%e %B %Y")}}
 	{% if page.updated %}, updated on {{ page.updated | date(format="%e %B %Y") }}
 	{% endif %}
 </span>
-{% endmacro page_list %}
+{% endmacro page_header %}
+
+{% macro index_seo(config) %}
+<meta name="author" content="{{ config.extra.author }}">
+<meta name="description" content="{{ config.description }}">
+<meta name="keywords" content="{{ config.extra.keywords }}">
+{% endmacro index_seo %}
+
+{% macro page_seo(page) %}
+<meta name="author" content="{{ page.extra.author }}">
+<meta name="description" content="{{ page.description }}">
+<meta name="keywords" content="{{ page.extra.keywords }}">
+{% endmacro page_seo %}

@@ -2,9 +2,11 @@
 
 {% block title %}{{ page.title }} - {{ config.title }}{% endblock %}
 
+{% block seo %}{{ post_macros::page_seo(page=page) }}{% endblock seo %}
+
 {% block header %}
 <!-- Page Header -->
-<header class="masthead" style="background-image: url('{{ get_url(path="/img/post-bg.jpg")}}')">
+<header class="masthead" style="background-image: url('{{ get_url(path="img/post-bg.jpg")}}')">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row">
